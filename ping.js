@@ -29,7 +29,7 @@ const ping = async (m, Matrix) => {
     // CONTENT DEFINITION
     // ======================
     const imageUrl = "https://files.catbox.moe/yn27p3.jpg";
-    const text = `*👁️‍🗨️ ASHEN MD* : ${responseTime.toFixed(2)} s`;
+    const text = `*👁️‍🗨️ AROO XMD* : ${responseTime.toFixed(2)} s`;
     
     // ======================
     // BUTTONS DEFINITION
@@ -73,7 +73,7 @@ const ping = async (m, Matrix) => {
       
       // Text content
       caption: text,
-      footer: "ASHEN MD MINI BOT",
+      footer: "AROO XMD MINI BOT",
       
       // Interactive elements
       buttons: buttons,
@@ -89,7 +89,7 @@ const ping = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363402295055914@newsletter',
-          newsletterName: 'ᴀꜱʜᴇɴ ᴍᴅ ᴘɪɴɢ',
+          newsletterName: 'AROO XMD PING',
           serverMessageId: -1
         }
       }
