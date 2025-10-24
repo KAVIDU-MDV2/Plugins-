@@ -57,7 +57,7 @@ const tourl = async (m, bot) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363302677217436@newsletter',
-          newsletterName: 'CASEYRHODES-XMD',
+          newsletterName: 'AROO XMD',
           serverMessageId: 143
         }
       };
