@@ -57,7 +57,7 @@ const imageCommand = async (m, sock) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363419102725912@newsletter',
-                  newsletterName: 'POWERED BY BLOOD XMD MINI',
+                  newsletterName: 'POWERED BY AROO XMD',
                   serverMessageId: -1
                 }
               }
