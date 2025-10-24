@@ -121,7 +121,7 @@ function formatSongInfo(videoInfo, videoUrl) {
   
   // Create a decorated song info with ASCII art
   return `
-╭───〘  *🎵 ᴀꜱʜᴇɴ ᴍᴅ ꜱᴏɴɢꜱ 🎵* 〙───
+╭───〘  *🎵 AROO XMD ꜱᴏɴɢꜱ 🎵* 〙───
 ├📝 *ᴛɪᴛʟᴇ:* ${videoInfo.title}
 ├👤 *ᴀʀᴛɪsᴛ:* ${videoInfo.author.name}
 ├⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${formattedDuration}
@@ -225,7 +225,7 @@ const play = async (message, client) => {
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363402295055914@newsletter',
-                newsletterName: 'POWERED BY ASHEN MD MINI',
+                newsletterName: 'POWERED BY AROO XMD MINI',
                 serverMessageId: -1
               }
             }
@@ -246,13 +246,13 @@ const play = async (message, client) => {
               }
             ],
             mentions: [message.sender],
-            footer: config.FOOTER || "> ᴘᴏᴡᴇʀᴅ ʙʏ ᴀꜱʜᴇɴ ᴍᴅ ᴍɪᴊɪ ʙᴏᴛ 🏮",
+            footer: config.FOOTER || "> ᴘᴏᴡᴇʀᴅ ʙʏ ᴀʀᴏᴏ xᴍᴅ ᴍɪɴɪ ʙᴏᴛ 🏮",
             contextInfo: {
               forwardingScore: 1,
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363402295055914@newsletter',
-                newsletterName: 'POWERED BY ASHEN MD MINI',
+                newsletterName: 'POWERED BY AROO XMD',
                 serverMessageId: -1
               }
             }
@@ -317,7 +317,7 @@ const play = async (message, client) => {
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363402295055914@newsletter',
-                newsletterName: 'POWERED BY ASHEN MD MINI',
+                newsletterName: 'POWERED BY AROO XMD MINI',
                 serverMessageId: -1
               }
             }
@@ -332,7 +332,7 @@ const play = async (message, client) => {
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363402295055914@newsletter',
-                newsletterName: 'POWERED BY ASHEN MD MINI',
+                newsletterName: 'POWERED BY AROO XMD MINI',
                 serverMessageId: -1
               }
             }
